@@ -1,0 +1,27 @@
+{
+  "name": "studying-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "bin": {
+    "configure": "./bin/index.js"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.0.0",
+    "nanospinner": "^1.1.0",
+    "routeros-client": "^1.1.2"
+  }
+}
